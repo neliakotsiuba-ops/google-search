@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #202124;
+}
+.top-nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+  padding: 12px 20px;
+  font-size: 14px;
+}
+.top-nav a {
+  color: #1a0dab;
+  text-decoration: none;
+}
+.top-nav a:hover {
+  text-decoration: underline;
+}
+.center-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 120px;
+}
+.logo {
+  font-size: 64px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  font-family: "Product Sans", Arial, sans-serif;
+}
+.search-form {
+  width: 100%;
+  max-width: 600px;
+}
+.search-input {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 24px;
+  border: 1px solid #dfe1e5;
+  font-size: 16px;
+  outline: none;
+}
+.search-input:focus {
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  border-color: transparent;
+}
+.buttons-row {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.btn {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: 1px solid #f8f9fa;
+  background-color: #f8f9fa;
+  font-size: 14px;
+  color: #3c4043;
+  cursor: pointer;
+}
+.btn:hover {
+  border-color: #dadce0;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+.advanced-wrapper {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+.advanced-wrapper h2 {
+  color: #d93025;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.advanced-form {
+  border-top: 1px solid #dadce0;
+  padding-top: 20px;
+}
+.row {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  align-items: center;
+  margin-bottom: 12px;
+  column-gap: 16px;
+  font-size: 13px;
+}
+.row label {
+  font-size: 13px;
+}
+.row input[type="text"] {
+  padding: 6px 8px;
+  border: 1px solid #d9d9d9;
+  font-size: 13px;
+}
+.row-submit {
+  margin-top: 20px;
+  justify-content: flex-end;
+}
+.btn-advanced {
+  background-color: #4d90fe;
+  border: 1px solid #3079ed;
+  color: #fff;
+}
+.btn-advanced:hover {
+  background-color: #357ae8;
+  border-color: #2f5bb7;
+}
